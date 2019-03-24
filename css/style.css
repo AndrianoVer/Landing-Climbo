@@ -856,6 +856,42 @@ table {
 	top: -3px;
 }
 
+@media (max-width: 1250px){
+	.section-80-100{
+		padding: 40px 0px 50px 0px;
+	}
+}
+
+@media (max-width: 720px){
+	.ongoing-events-inner{
+		display: flex;
+		flex-direction: column;
+	}
+	.ongoing-events-left{
+		text-align: center;
+	}
+	.ongoing-events-right{
+		text-align: center;
+		padding-right: 0;
+	}
+	.find-event{		    
+		font-weight: 500;    
+		padding: 10px 40px 10px 10px;
+		font-size: 18px;
+		line-height: 1.2;		
+	}
+}
+
+@media (max-width: 670px){
+	.button-group{
+		display: none;
+	}
+	.line{
+		display: none;
+	}
+}
+
+
 /* Top climbers */
 
 .section-50-80{
