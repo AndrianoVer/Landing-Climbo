@@ -1071,3 +1071,49 @@ table {
 	-moz-box-shadow: 0px -8px 16px -2px rgba(0,0,0,0.15);
 	box-shadow: 0px -8px 16px -2px rgba(0,0,0,0.15);
 }
+
+.top-climbers-of-the-week-main{
+	text-align: center;
+}
+
+.top-climbers-of-the-week h3{	
+	font-family: 'HelveticaNeue', sans-serif;
+	font-size: 30px;
+    letter-spacing: 0.025em;
+    color: #4e5c5f;
+    font-weight: 300;    
+}
+
+.top-climbers-of-the-week{
+	margin-bottom: 10px;
+}
+
+
+@media (max-width: 1120px){
+	.discription-full p {
+		font-size: 12px;
+		font-weight: 300;		
+		line-height: 0.9;
+	}	
+}
+
+@media (max-width: 1100px){
+	.top-climbers-of-the-week-main{
+		display: block !important;
+	}
+	.top-climbers-content-inner{
+		display: none;
+	}
+}
+@media (max-width: 576px){
+	.top-climbers-of-the-week h3{		
+		font-size: 25px;		    
+	}
+}
+@media (max-width: 320px){
+	.top-climbers-of-the-week h3{		
+		font-size: 16px;		    
+	}
+}
+
+
